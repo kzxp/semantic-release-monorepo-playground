@@ -1,12 +1,12 @@
 {
-  "name": "@packages/server",
+  "name": "server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "semantic-release": "yarn semantic-release"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "express": "^4.17.3"
-  }
+  },
+  "license": "MIT"
 }

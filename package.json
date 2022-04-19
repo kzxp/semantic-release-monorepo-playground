@@ -6,6 +6,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "dependencies": {
+    "semantic-release": "^19.0.2",
+    "semantic-release-monorepo": "^7.0.5"
+  },
   "repository": "git@github.com:Th3Fire/semantic-release-monorepo-playground.git",
   "author": "Wuttinan.C <wuttinan.wch@gmail.com>",
   "license": "MIT"

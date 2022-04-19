@@ -3,6 +3,10 @@
     "branches": [
       "master",
       "release"
-    ]
+    ],
+    "extends": [
+      "semantic-release-monorepo"
+    ],
+    "tagFormat": "<PACKAGE_NAME>-v<VERSION>"
   }
 }
