@@ -1,23 +1,14 @@
 {
-  "release": {
-    "branches": [
-      "master",
-      "release"
-    ],
-    "extends": [
-      "semantic-release-monorepo"
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ],
-      "@semantic-release/git"
-    ],
-    "tagFormat": "<PACKAGE_NAME>-v<VERSION>"
-  }
+  "branches": [
+    "master",
+    "release"
+  ],
+  "extends": [
+    "semantic-release-monorepo"
+  ],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github"
+  ]
 }
