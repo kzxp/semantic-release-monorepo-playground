@@ -8,10 +8,12 @@
       "semantic-release-monorepo"
     ],
     "plugins": [
-      "@semantic-release/npm",
-      {
-        "npmPublish": false
-      }
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ]
     ],
     "tagFormat": "<PACKAGE_NAME>-v<VERSION>"
   }
